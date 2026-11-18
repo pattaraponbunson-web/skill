@@ -1,0 +1,98 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.skill.crimson_ritual.spin": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [
+            0,
+            "0.12 * math.sin(query.life_time * 2.2)",
+            0
+          ],
+          "scale": [
+            "math.clamp(query.life_time * 1.4, 0.12, 2.4)",
+            "math.clamp(query.life_time * 1.4, 0.12, 2.4)",
+            "math.clamp(query.life_time * 1.4, 0.12, 2.4)"
+          ]
+        },
+        "outer_ring": {
+          "rotation": [0, "query.life_time * 9.0", 0],
+          "scale": [
+            "math.clamp(query.life_time * 3.0, 0.25, 1.0)",
+            "1.0",
+            "math.clamp(query.life_time * 3.0, 0.25, 1.0)"
+          ]
+        },
+        "ground_star": {
+          "rotation": [0, "query.life_time * 7.0", 0]
+        },
+        "rune_band": {
+          "rotation": [0, "query.life_time * -18.0", 0]
+        },
+        "inner_ring": {
+          "rotation": [0, "query.life_time * 27.0", 0]
+        },
+        "hover_ring_low": {
+          "rotation": [0, "query.life_time * -34.0", 0],
+          "position": [0, "1.4 * math.sin(query.life_time * 2.0)", 0]
+        },
+        "hover_ring_mid": {
+          "rotation": [0, "query.life_time * 47.0", 0],
+          "position": [0, "1.0 * math.sin(query.life_time * 2.5 + 1.2)", 0]
+        },
+        "hover_ring_high": {
+          "rotation": [0, "query.life_time * -62.0", 0],
+          "position": [0, "0.8 * math.sin(query.life_time * 3.0 + 2.4)", 0]
+        },
+        "portal_frame": {
+          "rotation": [0, "query.life_time * 14.0", 0],
+          "scale": [
+            "0.9 + 0.1 * math.sin(query.life_time * 3.2)",
+            "0.9 + 0.1 * math.sin(query.life_time * 3.2)",
+            1.0
+          ]
+        },
+        "portal_inner": {
+          "rotation": [0, "query.life_time * -23.0", 0]
+        },
+        "core_crystal": {
+          "rotation": [
+            "query.life_time * 12.0",
+            "query.life_time * 36.0",
+            "query.life_time * 8.0"
+          ],
+          "scale": [
+            "0.9 + 0.1 * math.sin(query.life_time * 5.0)",
+            "0.9 + 0.1 * math.sin(query.life_time * 5.0)",
+            "0.9 + 0.1 * math.sin(query.life_time * 5.0)"
+          ]
+        },
+        "pillar_0": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0)", 1]
+        },
+        "pillar_1": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 0.8)", 1]
+        },
+        "pillar_2": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 1.6)", 1]
+        },
+        "pillar_3": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 2.4)", 1]
+        },
+        "pillar_4": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 3.2)", 1]
+        },
+        "pillar_5": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 4.0)", 1]
+        },
+        "pillar_6": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 4.8)", 1]
+        },
+        "pillar_7": {
+          "scale": [1, "0.82 + 0.18 * math.sin(query.life_time * 5.0 + 5.6)", 1]
+        }
+      }
+    }
+  }
+}

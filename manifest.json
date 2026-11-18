@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Crimson Snowstorm: Crimson Boundary",
+    "description": "A vast crimson boundary ritual with cinematic effects and original sound.",
+    "uuid": "63e56aab-3624-473c-9fb9-7eeb6b2375a8",
+    "version": [1, 4, 0],
+    "min_engine_version": [1, 26, 62]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "9c5766d7-5a41-43a4-9c32-91f88609b01d",
+      "version": [1, 4, 0]
+    }
+  ]
+}

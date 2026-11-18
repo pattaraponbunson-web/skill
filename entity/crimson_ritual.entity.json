@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "skill:crimson_ritual",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/crimson_ritual"
+      },
+      "geometry": {
+        "default": "geometry.skill.crimson_ritual"
+      },
+      "animations": {
+        "ritual_spin": "animation.skill.crimson_ritual.spin"
+      },
+      "scripts": {
+        "animate": ["ritual_spin"]
+      },
+      "render_controllers": [
+        "controller.render.skill.crimson_ritual"
+      ]
+    }
+  }
+}

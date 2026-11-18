@@ -1,0 +1,37 @@
+{
+  "format_version": "1.26.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "skill:crimson_talisman",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Crimson Sigil"
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "crimson_talisman"
+        }
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.65,
+        "movement_modifier": 0.8
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:cooldown": {
+        "category": "crimson_sigil_cast",
+        "duration": 30.0
+      },
+      "minecraft:food": {
+        "can_always_eat": true,
+        "nutrition": 0,
+        "saturation_modifier": 0.0,
+        "using_converts_to": "skill:crimson_talisman"
+      }
+    }
+  }
+}
